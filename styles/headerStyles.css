@@ -1,3 +1,5 @@
+
+/* nav styles */
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -39,6 +41,15 @@
     display: none;
 }
 
+
+/* banner styles */
+.banner-title {
+    font-size: 4rem;
+}
+
+
+
+/* responsive the nav styles */
 @media screen and (max-width: 576px) {
 
     .nav-container {
