@@ -1,0 +1,43 @@
+.popular-tour-container {
+    margin: 50px 0;
+}
+
+.popular-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.popular-container img {
+    width: 50%;
+    height: 550px;
+}
+
+.popular-tour-description {
+    width: 40%;
+}
+
+.popular-tour-title {
+    font-size: 2.8rem;
+}
+
+.popular-tour-paragraph {
+    margin: 20px 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.popular-tour-list li::before {
+    content: "•";
+    color: #0078d4;
+    font-size: 24px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+.popular-tour-list {
+    margin-left: 40px;
+}
