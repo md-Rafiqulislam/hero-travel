@@ -1,0 +1,53 @@
+.destination-container {
+    margin: 100px 0;
+}
+
+.destination-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.destination-header h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.image-first-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.image-second-row {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 10px;
+}
+
+.image-first-row img {
+    width: 100%;
+    height: 400px;
+}
+
+.image-second-row img {
+    width: 100%;
+    height: 400px;
+}
+
+.image-third-row {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    gap: 10px;
+}
+
+.image-third-row img {
+    width: 100%;
+    height: 400px;
+}
+
+.image-first-row,
+.image-second-row,
+.image-third-row {
+    margin-top: 10px;
+}
