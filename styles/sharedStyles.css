@@ -38,3 +38,7 @@ body {
 .orange-background {
     background-color: #c24020;
 }
+
+.half-width {
+    width: 50%;
+}
